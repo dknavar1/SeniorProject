@@ -1,0 +1,292 @@
+{
+    "souffle_pancakes": {
+        "id": 1,
+        "name": "Soufflé Pancakes",
+        "description": "Fluffy and light soufflé pancakes inspired by the movie Your Name. Perfectly soft and airy, these pancakes will melt in your mouth!",
+        "image": "images/souffle.png",
+        "ingredients": [
+            "2 large eggs (separate yolks and whites)",
+            "2 tbsp milk",
+            "1/4 cup flour",
+            "1/2 tsp baking powder",
+            "2 tbsp sugar",
+            "Butter (for greasing)",
+            "Powdered sugar and maple syrup (for topping)"
+        ],
+        "instructions": [
+            "Step 1: Separate the egg yolks and whites into two bowls.",
+            "Step 2: In the yolk bowl, add milk and whisk until well combined.",
+            "Step 3: Sift in flour and baking powder, and mix until smooth.",
+            "Step 4: In the whites bowl, beat the egg whites until foamy, then gradually add sugar and continue beating until stiff peaks form.",
+            "5. Gently fold the egg whites into the yolk mixture, being careful not to deflate the batter.",
+            "6. Heat a non-stick pan over low heat and grease with butter.",
+            "7. Scoop the batter onto the pan to form small, thick pancakes. Cover with a lid and cook for a few minutes until the bottom is golden.",
+            "8. Flip the pancakes carefully, cover again, and cook the other side until golden and cooked through.",
+            "9. Serve with powdered sugar and maple syrup, and enjoy!"
+        ]
+    },
+    "onigiri": {
+        "id": 2,
+        "name": "Onigiri",
+        "description": "In Your Name, Taki, one of the main characters, eats onigiri for lunch every day. Onigiri is a rice ball stuffed with various fillings like salmon, tuna, or pickled plums. It's a simple and filling Japanese lunch option that you can easily make at home.",
+        "image": "images/onigiri_plate.jpg",
+        "ingredients": [
+            "2 cups Japanese short-grain rice",
+            "2 1/4 cups water",
+            "2-3 tablespoons rice vinegar",
+            "1 teaspoon sugar",
+            "1/2 teaspoon salt",
+            "Filling of your choice (pickled plums, salmon, tuna, seaweed, etc.)",
+            "Optional: Nori (seaweed) sheets, sesame seeds"
+        ],
+        "instructions": [
+            "Rinse the rice in cold water until the water runs clear. Drain the rice in a colander for 30 minutes to an hour.",
+            "In a large pot, combine the rice and water and bring to a boil. Once boiling, reduce the heat to low, cover, and cook for 12-15 minutes, or until the water has been absorbed and the rice is tender.",
+            "In a small bowl, mix together the rice vinegar, sugar, and salt until the sugar and salt are dissolved.",
+            "Once the rice is cooked, transfer it to a large bowl and add the vinegar mixture. Mix gently until the rice is coated evenly with the mixture.",
+            "Wet your hands with water and sprinkle some salt on them. Take a small amount of rice and form it into a ball, about the size of a small apple.",
+            "Make a small indentation in the middle of the ball with your thumb and add a small amount of filling (pickled plums, salmon, tuna, seaweed, etc.).",
+            "Cover the filling with more rice and shape the ball into a triangle or oval shape.",
+            "Optional: wrap the onigiri with a sheet of nori and sprinkle sesame seeds on top.",
+            "Repeat the process until all the rice and filling is used up.",
+            "Serve the onigiri immediately, or store them in an airtight container in the fridge for up to a day. Enjoy!"
+        ]
+    },
+    "taiyaki": {
+        "id": 3,
+        "name": "Taiyaki",
+        "description": "Taiyaki is a fish-shaped pastry filled with sweet red bean paste. This cute and delicious snack is perfect for satisfying your sweet tooth!",
+        "image": "images/taiyaki.jpg",
+        "ingredients": [
+            "1 cup all-purpose flour",
+            "2 teaspoons baking powder",
+            "2 tablespoons sugar",
+            "1/4 teaspoon salt",
+            "1 large egg",
+            "1 cup milk",
+            "1/2 teaspoon vanilla extract",
+            "Red bean paste or other filling of your choice",
+            "Optional: chocolate chips, matcha powder"
+        ],
+        "instructions": [
+            "In a medium-sized mixing bowl, combine the flour, baking powder, sugar, and salt. Mix well.",
+            "In another mixing bowl, whisk the egg, milk, and vanilla extract until well combined.",
+            "Add the wet ingredients to the dry ingredients and mix until smooth.",
+            "Preheat a Taiyaki maker or a fish-shaped waffle maker on medium heat. If you don't have a Taiyaki maker, a regular waffle maker can be used.",
+            "Brush the inside of each fish-shaped mold with vegetable oil or cooking spray.",
+            "Spoon about 2 tablespoons of batter into each mold, filling it about 3/4 full.",
+            "Add a spoonful of red bean paste or other filling of your choice onto the batter.",
+            "Top with another tablespoon of batter to cover the filling.",
+            "Close the lid and cook for 2-3 minutes or until the Taiyaki is golden brown.",
+            "Carefully remove the Taiyaki from the mold and place it on a wire rack to cool.",
+            "Repeat the process until all the batter and filling is used up.",
+            "Optional: sprinkle some chocolate chips or matcha powder on top of the Taiyaki before serving.",
+            "Serve the Taiyaki warm and enjoy!"
+        ]
+    },
+    "ramen": {
+        "id": 4,
+        "name": "Naruto's Ramen",
+        "description": "A delicious and authentic bowl of ramen inspired by the anime *Naruto*. This ramen is perfect for recreating the Ichiraku Ramen experience at home!",
+        "image": "images/ramen.webp",
+        "prep_time": "1 hour",
+        "ingredients": [
+            "4 cups chicken or pork broth",
+            "1 pack ramen noodles",
+            "2 soft-boiled eggs",
+            "Sliced pork belly (chashu)",
+            "1/4 cup chopped green onions",
+            "1/4 cup bamboo shoots",
+            "1/4 cup corn kernels",
+            "Nori (seaweed) sheets",
+            "Naruto fish cake slices (optional)",
+            "Soy sauce or miso (for seasoning)"
+        ],
+        "instructions": [
+            "Bring the broth to a boil in a pot. Add soy sauce or miso to taste for extra flavour.",
+            "In another pot, cook the ramen noodles according to package instructions. Drain and set aside.",
+            "Prepare the soft-boiled eggs by boiling them for 6-7 minutes, then placing them in ice water. Peel and slice in half.",
+            "Slice the pork belly (chashu) into thin pieces and set aside.",
+            "In a ramen bowl, place the cooked noodles, then pour the hot broth over the noodles.",
+            "Top the ramen with sliced pork belly, green onions, bamboo shoots, corn, nori sheets, and Naruto fish cake slices.",
+            "Garnish with soft-boiled egg halves and any additional toppings you prefer.",
+            "Serve hot and enjoy your Naruto-inspired ramen!"
+        ]
+    },
+    "mochi": {
+        "id": 5,
+        "name": "Mochi",
+        "description": "In Spirited Away, the character No-Face is seen eating mochi, a Japanese rice cake often filled with sweet or savory fillings like red bean paste or cheese. Mochi is a popular snack enjoyed during holidays or special occasions.",
+        "image": "images/mochi.webp",
+        "prep_time": "20 minutes",
+        "ingredients": [
+            "2 cups glutinous rice flour",
+            "1 1/2 cups water",
+            "1/2 cup sugar",
+            "Potato starch or cornstarch for dusting",
+            "Filling of your choice (red bean paste, ice cream, etc.)"
+        ],
+        "instructions": [
+            "In a large mixing bowl, whisk together the glutinous rice flour, water, and sugar until smooth.",
+            "Cover the bowl with plastic wrap and microwave on high for 3 minutes.",
+            "Remove the bowl from the microwave and stir the mixture with a spatula until smooth.",
+            "Cover the bowl again and microwave on high for another 2-3 minutes.",
+            "Remove the bowl from the microwave and stir the mixture again until smooth.",
+            "Transfer the mochi mixture onto a surface dusted with potato starch or cornstarch.",
+            "Dust your hands with potato starch or cornstarch and knead the mochi until it becomes smooth and elastic.",
+            "Divide the mochi into small pieces, about 1-2 tablespoons each.",
+            "Flatten each piece of mochi with your hands, then place a small amount of filling (red bean paste, ice cream, etc.) in the center.",
+            "Fold the edges of the mochi over the filling and pinch to seal.",
+            "Roll the mochi into a ball shape, dusting with potato starch or cornstarch as needed to prevent sticking.",
+            "Repeat the process until all the mochi and filling is used up.",
+            "Serve the mochi immediately or store in an airtight container in the fridge for up to a day.",
+            "Enjoy your delicious homemade Mochi!"
+        ]
+    },
+    "katsudon": {
+        "id": 6,
+        "name": "Katsudon",
+        "description": "In My Hero Academia, Katsudon is a favourite dish of All Might and Deku. It's a comforting Japanese dish featuring a crispy pork cutlet served over rice with a savoury broth and soft-cooked eggs. Often associated with victory and success in Japanese culture, it's perfect for celebrating small wins!",
+        "image": "images/katsudon.webp",
+        "prep_time": "30 minutes",
+        "ingredients": [
+            "1 bowl of cooked white rice",
+            "1 pork cutlet (breaded and fried)",
+            "1/2 onion (sliced thinly)",
+            "2 eggs (lightly beaten)",
+            "1/4 cup dashi stock",
+            "1 tbsp soy sauce",
+            "1 tbsp mirin",
+            "1 tsp sugar",
+            "Sliced green onions (for garnish)"
+        ],
+        "instructions": [
+            "Prepare the cooked white rice and set aside.",
+            "In a small skillet, heat the dashi stock, soy sauce, mirin, and sugar. Stir until the sugar is fully dissolved.",
+            "Add the sliced onions to the skillet and simmer until softened.",
+            "Place the fried pork cutlet on top of the onions.",
+            "Pour the beaten eggs evenly over the pork and onions. Cover the skillet with a lid and cook on low heat until the eggs are just set.",
+            "Serve the pork and egg mixture over a bowl of hot white rice.",
+            "Garnish with sliced green onions and enjoy!"
+        ]
+    },
+    "nikuman": {
+        "id": 7,
+        "name": "Steamed Meat Bun (Nikuman)",
+        "description": "In Haikyuu, steamed meat buns, or Nikuman, are a favourite snack for the volleyball team. These buns are soft, fluffy, and filled with a savoury meat mixture, making them the perfect post-game treat.",
+        "image": "images/meatbun.jpg",
+        "prep_time": "1 hour",
+        "ingredients": [
+            "2 cups all-purpose flour",
+            "1/2 cup warm water",
+            "1 tsp dry yeast",
+            "1 tbsp sugar",
+            "1/4 tsp salt",
+            "1 tbsp vegetable oil",
+            "1/2 lb ground pork",
+            "1/4 cup finely chopped onions",
+            "1 clove garlic (minced)",
+            "1 tbsp soy sauce",
+            "1 tbsp oyster sauce",
+            "1 tsp sesame oil",
+            "1/2 tsp sugar",
+            "1/4 tsp ground black pepper"
+        ],
+        "instructions": [
+            "In a bowl, combine warm water, yeast, and sugar. Let it sit for 5-10 minutes until foamy.",
+            "Add flour, salt, and vegetable oil to the yeast mixture. Mix until a dough forms.",
+            "Knead the dough on a floured surface for about 10 minutes until smooth. Place the dough in a greased bowl, cover with a damp cloth, and let it rise for 1 hour or until doubled in size.",
+            "While the dough is rising, prepare the filling. In a skillet, cook ground pork with onions and garlic until the pork is browned and the onions are softened.",
+            "Add soy sauce, oyster sauce, sesame oil, sugar, and black pepper to the pork mixture. Cook for another 2-3 minutes, then remove from heat and let it cool.",
+            "After the dough has risen, punch it down and divide it into 8 equal portions. Roll each portion into a ball.",
+            "Flatten each ball into a disc and place a spoonful of the filling in the center. Wrap the dough around the filling, pinching the edges to seal, and shape it into a round bun.",
+            "Place the buns on parchment paper squares and let them rise for another 15-20 minutes.",
+            "Steam the buns in a steamer over boiling water for 10-12 minutes.",
+            "Remove from the steamer and serve warm. Enjoy your soft and savoury Nikuman!"
+        ]
+    },
+    "mitarashi_dango": {
+        "id": 8,
+        "name": "Mitarashi Dango",
+        "description": "In Demon Slayer, Mitarashi Dango is a traditional Japanese sweet enjoyed by many characters. These skewered rice dumplings are coated in a sweet and savoury soy-based glaze, making them a perfect snack for any occasion.",
+        "image": "images/mitarashidango.jpg",
+        "prep_time": "40 minutes",
+        "ingredients": [
+            "1 cup glutinous rice flour",
+            "3/4 cup water",
+            "2 tbsp sugar",
+            "1/4 cup soy sauce",
+            "2 tbsp mirin",
+            "2 tbsp sugar (for the glaze)",
+            "1 tbsp cornstarch (mixed with 2 tbsp water)",
+            "Wooden skewers"
+        ],
+        "instructions": [
+            "In a mixing bowl, combine glutinous rice flour, water, and sugar. Mix until a smooth dough forms.",
+            "Divide the dough into small, equal-sized portions and roll them into balls.",
+            "Bring a pot of water to a boil and gently drop the rice balls into the water. Cook until they float to the surface, then let them boil for an additional 1-2 minutes.",
+            "Remove the rice balls with a slotted spoon and transfer them to a bowl of cold water to cool.",
+            "Thread the cooled rice balls onto wooden skewers (about 3-4 balls per skewer).",
+            "In a small saucepan, combine soy sauce, mirin, sugar, and the cornstarch-water mixture. Heat over medium heat, stirring continuously, until the glaze thickens.",
+            "Lightly grill or pan-fry the skewered dango on all sides until slightly golden.",
+            "Brush the warm glaze over the grilled dango and serve immediately."
+        ]
+    },
+    "omurice": {
+        "id": 9,
+        "name": "Omurice",
+        "description": "Omurice, a combination of 'omelette' and 'rice,' is a beloved dish from The Way of the Househusband. This Japanese comfort food features fried rice wrapped in a fluffy omelette and topped with ketchup for a simple yet delicious meal.",
+        "image": "images/omurice.jpg",
+        "prep_time": "30 minutes",
+        "ingredients": [
+            "1 cup cooked white rice",
+            "1/2 onion (finely chopped)",
+            "1/2 cup cooked chicken (diced)",
+            "2 tbsp ketchup (plus more for garnish)",
+            "1 tbsp soy sauce",
+            "1 tbsp vegetable oil",
+            "2 large eggs",
+            "1 tbsp milk (optional)",
+            "Salt and pepper to taste",
+            "Chopped parsley (for garnish)"
+        ],
+        "instructions": [
+            "Heat vegetable oil in a frying pan over medium heat.",
+            "Sauté the chopped onion until softened, then add the diced chicken and cook until warmed through.",
+            "Add the cooked white rice to the pan and stir to combine with the chicken and onions.",
+            "Season the mixture with ketchup, soy sauce, salt, and pepper. Stir-fry for another 2-3 minutes, then remove from heat.",
+            "In a separate bowl, whisk the eggs with milk (optional) and a pinch of salt.",
+            "Heat another frying pan with a small amount of oil over low heat. Pour in the egg mixture, swirling to coat the pan evenly.",
+            "Cook the eggs gently until they are just set but still soft.",
+            "Place the fried rice mixture in the center of the omelette, then carefully fold the edges of the omelette over the rice.",
+            "Slide the omurice onto a plate, seam side down.",
+            "Garnish with ketchup and chopped parsley, then serve warm."
+        ]
+    },
+    "soba": {
+        "id": 10,
+        "name": "Sanji's Special Soba",
+        "description": "Sanji's Special Soba is a dish that highlights his incredible culinary skills in *One Piece*. This simple yet delicious recipe features perfectly cooked soba noodles paired with a flavourful broth and fresh toppings.",
+        "image": "images/soba.jpg",
+        "prep_time": "20 minutes",
+        "ingredients": [
+            "200g soba noodles",
+            "4 cups dashi stock",
+            "2 tbsp soy sauce",
+            "1 tbsp mirin",
+            "1 tsp sugar",
+            "2 green onions (thinly sliced)",
+            "1 sheet nori (seaweed), cut into strips",
+            "2 boiled eggs (halved)",
+            "Tempura (optional, for topping)"
+        ],
+        "instructions": [
+            "Bring a pot of water to a boil and cook the soba noodles according to the package instructions. Drain and rinse the noodles under cold water, then set aside.",
+            "In a medium saucepan, combine the dashi stock, soy sauce, mirin, and sugar. Bring to a gentle boil, then reduce the heat and simmer for 2-3 minutes.",
+            "Divide the cooked soba noodles into serving bowls.",
+            "Pour the hot broth over the noodles.",
+            "Top each bowl with sliced green onions, nori strips, halved boiled eggs, and optional tempura.",
+            "Serve immediately and enjoy Sanji's Special Soba!"
+        ]
+    }
+}
