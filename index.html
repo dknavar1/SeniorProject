@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Bites</title>
+  <link href="./css/tailwind.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" href="./images/logo.png" type="image/png">
+</head>
+<body class="bg-champagne">
+  <div class="flex h-screen flex-col">
+  <!-- Top Navigation -->
+  <nav class="border-gray-200 bg-[#fcf7f0] dark:bg-gray-900">
+    <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="images/logo.png" class="h-8" alt="Website Logo" />
+        <span class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white font-parkinsans">Anime Bites</span>
+      </a>
+      <button type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false" onclick="toggleMenu()">
+        <span class="sr-only">Open main menu</span>
+        <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="mt-4 flex flex-col rounded-lg border  p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-[#fcf7f0] md:p-0 rtl:space-x-reverse dark:border-gray-700 dark:bg-gray-800 md:dark:bg-gray-900 font-parkinsans">
+          <li><a href="index.html" class="block rounded bg-blue-700 px-3 py-2 text-white md:bg-transparent md:p-0 md:text-blue-700 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a></li>
+          <li><a href="aboutus.html" class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">About</a></li>
+          <li><a href="library.html" class="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500">Recipes</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Hero Section -->
+  <section class="relative flex-grow bg-cover bg-center bg-no-repeat" style="background-image: url('./images/bannerimage.png');" alt="Animated girl eating with kitchen in background">
+    <!-- Overlay for color background -->
+    <div class="absolute inset-0 bg-red-100/30"></div>
+    <!-- Content container -->
+    <div class="absolute  bottom-5 right-5 max-w-3xl rounded-lg bg-champagne p-8 ml-5 sm:mx-auto sm:my-auto sm:bg-opacity-70 md:bg-opacity-70">
+      <h1 class="text-5xl font-bold leading-tight mb-7 font-parkinsans">
+        Welcome to Anime Bites! Culinary
+        <span class="text-buff underline decoration-buff underline-offset-8" style="text-decoration-thickness: 8px;">
+        Adventures
+        </span> 
+         Await!
+      </h1>
+      </p>
+      <a href="library.html" class="mt-6 inline-block rounded-md bg-green px-12 py-4 font-parkinsans text-white hover:bg-buff">Explore Recipes</a>
+    </div>
+  </section>
+  </div>
+  
+  <!-- Introduction section -->
+  <section class="bg-[] dark:bg-gray-900 mt-20">
+      <div class="flex flex-col lg:flex-row gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 font-parkinsans">
+          <div class="relative w-2/6 mx-auto flex justify-center">
+              <div class="absolute inset-0 bg-green -translate-x-11 -translate-y-11  w-full h-full z-0 rounded-lg"></div>
+              <img class="relative z-10 w-full rounded-lg object-cover -translate-y-0" src="images/recipeimage.png" alt="Image of animated Japanese kitchen">
+          </div>
+  
+          <div class="w-full lg:w-1/2 font-light text-green sm:text-lg dark:text-gray-400">
+              <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Taste the World of Anime!</h2>
+              <p class="mb-4">
+                Dive into the flavors of your favourite anime worlds! From iconic dishes like Sanji's Katsu Don to Spirited Away's irresistible mochi, Anime Bites brings the magic of anime straight to your table. Explore recipes inspired by beloved characters and moments, and turn your fandom into a culinary adventure!</p>
+          </div>
+      </div>
+  </section>
+  
+  <div id="animation-carousel" class="relative sm:w-full lg:w-4/5 mx-auto" data-carousel="static">
+    <!-- Carousel -->
+    <div class="relative h-[65vh] overflow-hidden sm:rounded-s-sm lg:rounded-3xl">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/ramen.webp" class="absolute block w-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Bowl of ramen on table">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/onigiri_plate.jpg" class="absolute block w-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Three onigiri on plate">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/soba.jpg" class="absolute block w-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Bowl of soba from top view">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="images/taiyaki.jpg" class="absolute block w-full object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="Taiyaki dish on a plate">
+        </div>
+    </div>
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+      <button 
+          type="button" 
+          class="w-3 h-3 rounded-full bg-blue-500" 
+          aria-current="true" 
+          aria-label="Slide 1" 
+          data-carousel-slide-to="0">
+      </button>
+      <button 
+          type="button" 
+          class="w-3 h-3 rounded-full bg-blue-300 hover:bg-blue-500" 
+          aria-current="false" 
+          aria-label="Slide 2" 
+          data-carousel-slide-to="1">
+      </button>
+      <button 
+          type="button" 
+          class="w-3 h-3 rounded-full bg-blue-300 hover:bg-blue-500" 
+          aria-current="false" 
+          aria-label="Slide 3" 
+          data-carousel-slide-to="2">
+      </button>
+      <button 
+          type="button" 
+          class="w-3 h-3 rounded-full bg-blue-300 hover:bg-blue-500" 
+          aria-current="false" 
+          aria-label="Slide 4" 
+          data-carousel-slide-to="3">
+      </button>
+  </div>
+  
+
+    <!-- Slider -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+    </div>
+
+
+  <!-- How to Cook Like section-->
+  <section class="bg-[#fcf7f0] dark:bg-gray-900 py-24 px-5 font-parkinsans ">
+      <h2 class="text-4xl font-extrabold text-green dark:text-white text-center mb-20 font-parkinsans">Learn How to Cook Like...</h2>
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 justify-items-center">
+          <!-- Item 1 -->
+          <div class="flex items-center space-x-4">
+              <img class="w-24 h-26 rounded-full" src="images/LeafVillage.png" alt="Naruto icon">
+              <div class="w-80">
+                  <h3 class="text-2xl font-semibold text-green dark:text-white">Naruto: Master the Art of Ramen</h3>
+                  <p class="text-gray-500 dark:text-gray-400 text-lg">
+                    Channel your inner shinobi with a steaming bowl of Ichiraku-style ramen, packed with hearty flavors and a touch of Naruto's determination.
+                  </p>
+              </div>
+          </div>
+  
+          <!-- Item 2 -->
+          <div class="flex items-center space-x-4">
+              <img class="w-24 h-26 rounded-full" src="images/DS.png" alt="Demon Slayer icon">
+              <div class="w-80">
+                  <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">A Demon Slayer: Sweeten Up with Mitarashi Dango</h3>
+                  <p class="text-gray-500 dark:text-gray-400 text-lg">
+                    Learn to craft the perfect skewers of sweet and savory mitarashi dango, a favourite snack for slayers recharging after battle.
+                  </p>
+              </div>
+          </div>
+  
+  
+          <!-- Item 3 -->
+          <div class="flex items-center space-x-4">
+              <img class="w-24 h-26 rounded-full" src="images/OP.png" alt="One piece icon">
+              <div class="w-80">
+                  <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Sanji: One Piece's Soba</h3>
+                  <p class="text-gray-500 dark:text-gray-400 text-lg">
+                    Set sail for flavour with Sanji's signature soba, a dish as adventurous and bold as the Straw Hat Pirates themselves.
+                  </p>
+              </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="flex items-center space-x-4">
+              <img class="w-24 h-26 rounded-full" src="images/FB.png" alt="Onigiri icon">
+              <div class="w-80">
+                  <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Tohru: Heartfelt Onigiri</h3>
+                  <p class="text-gray-500 dark:text-gray-400 text-lg">
+                    Roll up your sleeves and prepare heartwarming onigiri inspired by Tohru's kindness, the perfect comfort food from Fruits Basket.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-[#fcf7f0] rounded-lg shadow dark:bg-gray-900 m-4">
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+              <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                  <img src="images/logo.png" class="h-8" alt="Anime Bites logo" />
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-parkinsans">Anime Bites</span>
+              </a>
+              <p class="capitalize text-base font-parkinsans">From Spirited Kitchens to Your Table.</p>
+          </div>
+          <hr class="my-6 border-black sm:mx-auto dark:border-white lg:my-8" />
+          <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline font-parkinsans">Anime Bites</a>. For Education Purposes Only.</span>
+      </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+<script src="/public/script.js"></script>
+</body>
+</html>
